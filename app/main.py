@@ -5,7 +5,7 @@ from zipfile import ZipFile
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, __version__
 import logging
 
-AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=goolit2;AccountKey=iOHs5Z9m+/S4doMBH5G/JQzbO/6vx+V6UiRw9FQw3gHypjLoZqu0tMvh9WOezkMWEBSyz+ZMaFcvjZyiMHft9Q==;EndpointSuffix=core.windows.net"
+AZURE_STORAGE_CONNECTION_STRING="ADD YOUR STRING HERE"
 
 logging.basicConfig(filename="log.log", level=logging.INFO)
 
