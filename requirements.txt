@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+typing
+tensorflow
+pillow
+numpy
+opencv-python
+azure-storage-blob
