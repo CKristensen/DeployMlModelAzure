@@ -1,5 +1,5 @@
 # DeployMlModelAzure
-FastAPI container running on an Azure ACI that get predictions from a Model in another Azure Storage Container.
+FastAPI container running on an Azure ACI that get predictions from a saved .pb TensorFlow Model in another Azure Storage Container.
 
 We’re going to use an Azure Container Instance to host an API that serves our machine learning model for predictions. 
 The model is stored as a Tensorflow SavedModel, and outputs the predicted sentiment (positive/negative) for an input sentence. 
