@@ -8,4 +8,10 @@ The model is stored as a Tensorflow SavedModel, and outputs the predicted sentim
 /predict: Runs a sentiment prediction.
 /refresh: Loads a newer model from Azure Storage. 
 
+Note: If you want to run this please create you own model and upload it to your own Azure ACI. 
+I only used the free tier in Azure to experiment with it.
+
+Also edit the Dockerfile and set the correct path in the env variable.
+
+
 
